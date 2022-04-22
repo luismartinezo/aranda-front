@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Como una aproximación a este cambio Usted debe implementar una prueba de concepto en la plataforma Microsoft 
+.Net con una interacción entre el front y el backend por medio de servicios REST, generando una aplicación web que 
+cumpla con los siguientes requerimientos funcionales: 
+1. Se debe permitir la autenticación de usuarios usando nombre y password. Inicialmente el único usuario creado en el 
+sistema es “admon”/”123” y tiene el rol administrador. 
+2. Después de ingresar se deben mostrar los datos del usuario autenticado todo el tiempo. Cada usuario tiene la 
+siguiente información asociada: nombre, password, nombres completos, dirección, teléfono, email, edad y rol. 
+3. Los roles que se definieron para esta prueba de concepto son: Visitante, Asistente, Editor, Administrador. 
+4. Los permisos por defecto de cada rol son los siguientes:
+• Visitante: Solo observa un mensaje de bienvenida y noticias de la empresa (información fija)
+• Asistente: Observar el mensaje de bienvenida, listar usuarios, filtrar por nombre y filtrar por rol
+• Editor: Lo que hace el asistente y además edición de los datos de cualquier usuario 
+• Administrador: Lo que hace el editor y además crear y eliminar usuario.
+
 ## Available Scripts
 
 In the project directory, you can run:
